@@ -1,14 +1,36 @@
+body {
+  display: flex;
+  padding: 53px 359px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-    margin-top: 10%;
-   
+  display: flex;
+  width: 376px;
+  height: 504px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+   font-family: 'Roboto', sans-serif;
   }
 
+  .login-text h1 {
+    text-align: center;
+  }
+
+  .login-text {
+    text-align: center;
+  }
   
   .form-group {
-    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
   }
   
   .form-group label {
@@ -18,7 +40,7 @@
   }
   
   .form-control {
-    width: 40%;
+    width: 349px;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -46,4 +68,8 @@
   .btn-danger {
     background-color: #dc3545;
     color: #fff;
+  }
+
+  label {
+    font-family: 'Roboto', sans-serif;
   }
